@@ -1,0 +1,53 @@
+.text-node {
+  border-radius: 8px;
+  min-width: 180px;
+  max-width: 250px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  transition: box-shadow 0.2s;
+}
+
+.text-node.selected {
+  border: 2px solid #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.text-node-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #b2f0e3;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+  font-size: 12px;
+  color: #333;
+}
+
+.text-node-icon {
+  font-size: 14px;
+}
+
+.text-node-title {
+  font-size: 12px;
+}
+
+.text-node-body {
+  padding: 10px 12px;
+}
+
+.text-node-content {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+  word-wrap: break-word;
+}
+
+.handle {
+  width: 10px;
+  height: 10px;
+  background: #6366f1;
+  border: 2px solid #fff;
+}
