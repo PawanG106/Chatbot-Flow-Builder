@@ -1,0 +1,44 @@
+.nodes-panel {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.dnd-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 24px;
+  border: 2px solid #6366f1;
+  border-radius: 10px;
+  cursor: grab;
+  background: #ffffff;
+  color: #6366f1;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+  user-select: none;
+  min-width: 100px;
+}
+
+.dnd-node:hover {
+  background: #eef2ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+.dnd-node:active {
+  cursor: grabbing;
+}
+
+.dnd-node-icon {
+  font-size: 22px;
+}
+
+.dnd-node-label {
+  font-size: 13px;
+}
