@@ -44,7 +44,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at **http://localhost:5173**.
+The app will be available at **(https://chatbot-flow-builder-app.vercel.app/)**.
 
 ### Build for Production
 
@@ -92,7 +92,7 @@ chatbot-flow-builder/
 
 ## Hosted Application
 
-🔗 **[Live Demo](#)** — *(Update this link after deployment)*
+🔗 **[Live Demo](https://chatbot-flow-builder-app.vercel.app/)** — *(Update this link after deployment)*
 
 ## License
 
