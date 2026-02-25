@@ -1,0 +1,73 @@
+.flow-builder {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.flow-builder-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  background: #f3f3f3;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 10;
+}
+
+.flow-builder-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.save-btn {
+  padding: 8px 28px;
+  background: #ffffff;
+  color: #6366f1;
+  border: 2px solid #6366f1;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.save-btn:hover {
+  background: #6366f1;
+  color: #fff;
+}
+
+.flow-builder-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.flow-canvas {
+  flex: 1;
+  height: 100%;
+}
+
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  border-left: 1px solid #e5e7eb;
+  background: #ffffff;
+  overflow-y: auto;
+}
+
+/* React Flow overrides */
+.react-flow__node {
+  cursor: pointer;
+}
+
+.react-flow__edge-path {
+  stroke: #6366f1;
+  stroke-width: 2;
+}
+
+.react-flow__connection-line {
+  stroke: #6366f1;
+}
